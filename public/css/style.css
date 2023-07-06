@@ -1,0 +1,41 @@
+#signup-card, #login-card {
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    width: 25rem;
+}
+
+#post-card, #comment-card, #new-post-card {
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    width: 75rem;
+}
+
+#new-post-card {
+    margin: auto;
+    margin-top: 30px;
+}
+
+#blog-dashboard-cards {
+    margin: 15px;
+}
+
+#new-post-btn {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) { 
+    .navbar-brand.abs {
+            position: absolute;
+            width: auto;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+    }
+    
+    #signup-card, #login-card, #post-card, #comment-card, #new-post-card {
+        width: 22rem;
+    }
+}
+    
